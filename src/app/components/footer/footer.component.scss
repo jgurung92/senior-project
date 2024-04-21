@@ -1,0 +1,56 @@
+
+// CSS for footer 
+.footer .contact {
+    // border: 1px solid; 
+    display: grid;
+    text-align: center;
+  }
+  
+  .footer .contact .link {
+    margin-top: -1.2rem;
+    display: grid;
+  }
+  
+  .footer  {
+      flex-direction: column;
+      margin-top: 1.3rem;
+      background-color: #55428b;
+      color: #fff;
+      // padding-top: 1rem;
+      // padding: 1rem;
+      display: flex;
+      // gap: 50%;
+      // align-items: center;
+      justify-content: center;
+    }
+  
+    .footer .copyright {
+      margin-top: .5rem;
+      display: flex;
+      justify-content: center;
+    }
+   
+    .footer .contact a {
+      margin-top: .2rem;
+    }
+  .footer .contact h3 {
+    font-size: 1rem;
+    margin-top: .5rem;
+  }
+  
+  .footer .copyright h3 {
+    font-size: .7rem;
+  }
+  
+   
+   
+    
+  
+    
+  
+  
+ 
+  
+
+  
+

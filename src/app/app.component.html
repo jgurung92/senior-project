@@ -1,0 +1,13 @@
+<!-- main page -->
+<!-- loading wheel -->
+<div class="custom-spinner" *ngIf="isLoading">
+    <div class="spinner-inner"></div>
+</div>
+
+<div *ngIf="!isLoading">
+    <router-outlet></router-outlet>
+</div>
+
+
+
+

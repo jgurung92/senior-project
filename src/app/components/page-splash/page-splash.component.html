@@ -1,0 +1,31 @@
+<app-topnav></app-topnav>
+
+<!-- This is where all of the employees will be -->
+<div class="top">
+  <p>My Group</p>
+
+  <!-- For loop: for each employee in the employees array -->
+  <app-splashblock
+    *ngFor="let i of apiData"
+    fName="{{ i.first_name }}"
+    lName="{{ i.last_name }}"
+    pos="{{ i.position }}"
+    rating="{{ i.average_rating }}"
+    id="{{ i.id }}"
+    [comments]="[i.comments]"
+  ></app-splashblock>
+
+  <!-- New entry button (brings up adding/post page) -->
+  <app-addblock></app-addblock>
+
+    <!-- jiten added this delete button -->
+    <app-deleteblock></app-deleteblock>
+  </div>
+  
+  <!-- jiten added this footer section -->
+   <app-footer></app-footer> 
+
+
+
+
+
